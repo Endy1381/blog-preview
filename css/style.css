@@ -8,19 +8,34 @@
     margin: 0;
     padding: 0;
 }
+
+p {
+    opacity: 0.7;
+}
+
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: Figtree;
       
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color: hsl(47, 88%, 63%);
+}
+
 .main {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    transform: translateY(7%);
+    transform: translateY(6%);
 }
 .smain {
+    margin: 0%;
     display: inline-block;
     background-color: white;
     padding: 2%;
