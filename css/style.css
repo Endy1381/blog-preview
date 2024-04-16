@@ -1,9 +1,17 @@
+@font-face {
+    font-family: 'Figtree'; 
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+
 * {
     margin: 0;
     padding: 0;
 }
 body {
     background-color: hsl(47, 88%, 63%);
+    font-family: Figtree;
+      
 }
 .main {
     display: flex;
@@ -32,7 +40,7 @@ body {
     text-align: left;
 }
 
-.sub h3 {
+.sub h4 {
     display: inline-block;
     padding: 2%;
     margin: 2%;
@@ -44,5 +52,6 @@ body {
     border-radius: 6%;
 }
 div {
-    margin: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
