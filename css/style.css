@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.smain {
+    display: inline-block;
+    background-color: white;
+    padding: 2%;
+}
+.acc {
+    display: flex;
+    align-items: center;
+}
+
+.acc img {
+    width: 45px;
+    margin: 2%;
+    margin-left: 0;
+}
+
+.noti {
+    text-align: left;
+}
+
+.sub h3 {
+    display: inline-block;
+    padding: 1%;
+    margin: 2%;
+    margin-left: 0;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 10%;
+}
