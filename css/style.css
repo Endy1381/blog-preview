@@ -15,9 +15,13 @@ p {
 
 body {
     background-color: hsl(47, 88%, 63%);
-    font-family: Figtree;
-      
+    font-family: 'Figtree'; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This ensures the body covers the entire viewport height */
 }
+
 
 a {
     color: rgb(13, 13, 13);
@@ -30,15 +34,15 @@ a:active {
 .main {
     display: flex;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    transform: translateY(4%);
+    padding: px; 
 }
+
 .smain {
     margin: 0%;
     display: inline-block;
     background-color: white;
-    padding: 2%;
+    padding: 7%;
     border-radius: 5%;
     box-shadow: 15px 20px;
 
@@ -70,8 +74,9 @@ a:active {
     border-radius: 6%;
 }
 div {
-    margin-bottom: 3%;
-    margin-top: 3%;
+    padding: %;
+    margin-bottom: 7%;
+    margin-top: 5%;
 }
 
 @media only screen and (max-width: 600px) {
